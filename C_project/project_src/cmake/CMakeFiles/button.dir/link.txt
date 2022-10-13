@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/button.dir/tests/button.c.o  -o button  libei.a ../_x11/libeibase64.a -L/home/nicolas/ensimag/projet-c/_x11 -lfreeimage -lSDL2 -lSDL2_ttf -lSDL2_gfx -lm 

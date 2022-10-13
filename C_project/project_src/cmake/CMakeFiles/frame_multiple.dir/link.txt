@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/frame_multiple.dir/tests/frame_multiple.c.o  -o frame_multiple  libei.a ../_x11/libeibase64.a -L/home/nicolas/ensimag/projet-c/_x11 -lfreeimage -lSDL2 -lSDL2_ttf -lSDL2_gfx -lm 

@@ -1,0 +1,42 @@
+└─ Projet_C
+   ├─ include
+   │  ├─ helpers
+   │  │  └─ ei_memory.h
+   │  │     └─ line 37: TODO peut etre pas le meilleur des endroits pour ces deux fonctions ...
+   │  └─ widgetclasses
+   │     └─ ei_frameclass.h
+   │        └─ line 6: TODO ameliorable peut etre ce typedef ... (ben)
+   ├─ src
+   │  ├─ geometry_managers
+   │  │  └─ ei_placer.c
+   │  │     └─ line 16: TODO release func de placer
+   │  ├─ helpers
+   │  │  └─ ei_geometry_helpers.c
+   │  │     └─ line 77: TODO : fix la seg fault de cette fonction (nico)
+   │  ├─ widgetclasses
+   │  │  ├─ ei_frameclass.c
+   │  │  │  ├─ line 84: TODO à check les fuites mémoires. (benjamin)
+   │  │  │  ├─ line 104: TODO utiliser le pattern Flyweight pour les fonts
+   │  │  │  ├─ line 107: TODO remettre free(frame->bg_image_aspect.area); si on décide de forcer l'allocation sur le tas de ceci
+   │  │  │  ├─ line 142: TODO on fill tout le frame dans tout les cas, à réfléchir (peut etre fill que là ou y a pas d'image)
+   │  │  │  ├─ line 143: TODO fill que si frame.size > bg_image.size
+   │  │  │  └─ line 195: TODO peut etre pas nécessaire si il n'y a pas eu de chgt de l'écran, car finalement on refill de la meme maniere.
+   │  │  └─ ei_toplevelclass.c
+   │  │     ├─ line 10: TODO à check les fuites mémoires (benjamin)
+   │  │     └─ line 45: TODO faire le draw du toplevel
+   │  ├─ ei_draw.c
+   │  │  └─ line 102: TODO devrions nous ei_app_invalidate_rect(&subsurface_rect); ?
+   │  ├─ ei_geometrymanager.c
+   │  │  ├─ line 34: TODO définir un iterateur pour geometrymanager
+   │  │  ├─ line 64: TODO test a ecrire et fuite memoire a check
+   │  │  └─ line 70: FIXME peut etre ecrire une fonction qui fait appel a un liberateur pour geom params (au cas ou un geo manager aurait des ptrs a liberer dans ses params)
+   │  └─ ei_widget.c
+   │     ├─ line 77: FIXME vérifier que cette fonction libère bel et bien un widget (widget au sens exact, pas frame ou btn)
+   │     ├─ line 130: TODO réfléchir sur cette implémentation, peut couter cher pour de très longs textes. Demander conseils à prof car on fait une copie a cahque fois.
+   │     ├─ line 158: TODO check if by default image_aspect.area is the whole image.
+   │     ├─ line 204: FIXME Vendredi: parcourir tous les descendants et appeler manager->runfunc sur eux (il faut notifier le parent, et lui prend la decision de s'adapter ou non).
+   │     ├─ line 303: TODO réfléchir sur cette implémentation, peut couter cher pour de très longs textes. Demander conseils à prof.
+   │     └─ line 322: FIXME Vendredi: parcourir tous les descendants et appeler manager->runfunc sur eux (il faut notifier le parent, et lui prend la decision de s'adapter ou non).
+   └─ units
+      └─ test_ei_geometrymanager.c
+         └─ line 33: TODO test du placer à ecrire
