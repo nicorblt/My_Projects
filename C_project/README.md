@@ -1,7 +1,5 @@
-# Brick_breaker
+# C_project
 
-Java project carried out in the final year of high school as part of the Computer Science and Digital Science option, this was my first IT project.
+Development of a graphical interface programming library in C. Project carried out over 3 weeks full time at the end of my first year at ensimag
 
-This work was done in team with Arnaud Sadion.
-
-Unfortunately the project code has been lost.
+This work was done in team with Priour Benjamin and Eloi Navet.

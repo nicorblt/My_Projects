@@ -1,4 +1,4 @@
-# Brick_breaker
+# Motorized_weelchair
 
 Project done in the last year of high school as part of the Engineering Science option.
 

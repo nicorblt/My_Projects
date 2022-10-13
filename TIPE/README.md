@@ -1,10 +1,8 @@
-# Brick_breaker
+# Study of the optimisation of the decongestion of a crowd - TIPE
 
-Project done in the last year of high school as part of the Engineering Science option.
+Project carried out throughout the MPSI/MP preparatory class.
 
-This work was done in team with Arnaud Sadion and Alexis Pesanti.
+The objective was to create a mathematical model of the dynamics of a crowd in order to simulate its movement. 
+The aim of these models was to observe how to optimize the evacuation of the crowd through the study of the variations of various parameters.
 
-The project won the "Societal Impact" prize at the 2019 Engineering Science Olympiad and was also passed on to engineers in French Guiana with the aim of developing the project.
-
-If you wish the code send me an e-mail.
-
+This project allowed me to obtain a mark of 14/20 in the competitive examination of the engineering schools.
