@@ -7,3 +7,5 @@ This work was done in team with Arnaud Sadion and Alexis Pesanti.
 The project won the "Societal Impact" prize at the 2019 Engineering Science Olympiad and was also passed on to engineers in French Guiana with the aim of developing the project.
 
 If you wish the source send me an e-mail.
+
+Remark : If you want to see the videos in the presentation just download it, there are clickable links.
